@@ -1,0 +1,6 @@
+com/example/supplier/controller/SupplierController.class
+com/example/supplier/util/CodigoUtil.class
+com/example/supplier/SupplierApplication.class
+com/example/supplier/repository/SupplierRepository.class
+com/example/supplier/model/Supplier.class
+com/example/supplier/service/SupplierService.class
