@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import InputMask from 'react-input-mask';
+import { createSupplier } from '../services/supplierService';
 
-const SupplierForm = ({ onSupplierCreated }) => {
+const SupplierForm = () => {
     const [supplier, setSupplier] = useState({
         nome: '',
         cnpj: '',
@@ -70,7 +71,7 @@ const SupplierForm = ({ onSupplierCreated }) => {
         }
 
         try {
-            await onSupplierCreated(supplier);
+            await createSupplier(supplier);
             setSupplier({
                 nome: '',
                 cnpj: '',
