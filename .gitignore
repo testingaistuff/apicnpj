@@ -64,3 +64,4 @@ coverage/
 .idea/
 .vscode/
 .DS_Store
+.vscode/settings.json
