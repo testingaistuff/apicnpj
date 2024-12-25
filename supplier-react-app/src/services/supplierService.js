@@ -1,4 +1,4 @@
-const serverUrl = 'https://sturdy-spork-v54qqr69q3pw95-8080.app.github.dev';
+const serverUrl = 'http://localhost:8080';
 
 export const getAllSuppliers = async () => {
     const response = await fetch(serverUrl+'/api/suppliers');

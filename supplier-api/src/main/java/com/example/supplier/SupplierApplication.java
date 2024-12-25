@@ -19,10 +19,10 @@ public class SupplierApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://sturdy-spork-v54qqr69q3pw95-3000.app.github.dev")
+                        .allowedOrigins("*")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                        .allowedHeaders("*")
-                        .allowCredentials(true);
+                        .allowedHeaders("*");
+//                        .allowCredentials(true);
             }
         };
     }
