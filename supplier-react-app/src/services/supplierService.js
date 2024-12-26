@@ -1,4 +1,4 @@
-const serverUrl = 'http://localhost:8080';
+const serverUrl = 'http://localhost:8081';
 
 export const getAllSuppliers = async () => {
     const response = await fetch(serverUrl+'/api/suppliers');
